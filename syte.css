@@ -1,0 +1,20 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  color: 000;
+  font-family: 'Anton', sans-serif;
+  font-size: 16px;
+}
+.container{
+  width: 1170px;
+  margin: o auto;
+}
+.header{
+  background: url(/img/header-bg.jpg) no-repeat center top / cover;
+}
+ul, li{
+  display: block;
+}
+header a{
+  color: #FFFFFF;
+}
