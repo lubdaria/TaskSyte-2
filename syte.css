@@ -8,6 +8,7 @@ body {
 .container {
   width: 1170px;
   margin: 0 auto;
+  color: ;
 }
 h1 {
   padding: 0;
@@ -52,6 +53,7 @@ header a {
 }
 .offer {
   margin-top: 321px;
+  padding-bottom: 384px;
   color: #FFF;
   text-transform: uppercase;
   font-weight: 400;
@@ -74,5 +76,31 @@ header a {
   padding: 17px 47px;
   border: 1px solid #FFF;
   width: 238px;
-  
+}
+h2 {
+  font-size: 50px;
+  margin-bottom: 58px;
+}
+h3 {
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.article p {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  text-align: justify;
+  line-height: 1.62em;
+}
+.article {
+  display: flex;
+  justify-content: space-between;
+}
+.article-left {
+  flex: 1;
+  padding-right: 40px;
+}
+.article-right {
+  flex: 1;
 }
